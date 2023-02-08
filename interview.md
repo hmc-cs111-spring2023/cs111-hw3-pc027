@@ -68,13 +68,13 @@ the user?_
 Users should click a “run” button on the GUI to run the program.
 
 The high-level order of actions when a program run is as follows:
-Check that the given file exists
-Create a coarse-grain view of the types of data that exist within file
-Obtain keywords that the user provides
-Detect the location of keyword occurrence and section text by distance from the keyword, whitespace/indentations, and implicit rules/assumptions
-Note any keywords that could not be found in document; validation on the user-indicated constraints
-Create a new document, and iteratively paste information based on the user-identified ordering of keywords
-At the end of the document, indicate any errors
+- Check that the given file exists
+- Create a coarse-grain view of the types of data that exist within file
+- Obtain keywords that the user provides
+- Detect the location of keyword occurrence and section text by distance from the keyword, whitespace/indentations, and implicit rules/assumptions
+- Note any keywords that could not be found in document; validation on the user-indicated constraints
+- Create a new document, and iteratively paste information based on the user-identified ordering of keywords
+- At the end of the document, indicate any errors
 
 The GUI should indicate when the new file has been created, or failure to create the file. The file should be in .doc or .docx format.
 
@@ -105,6 +105,8 @@ language? Are there parts of the language you think could be improved?_
 There are DSLs related to this domain. Itinerary creation is used as an example in this Java internal DSL tutorial. This paper shows a DSL-like excerpt of travel itinerary configuration in XCOSEML, which is an extension of the COSEML language (which seems quite DSL-like as well, but I have not spent enough time reading through the documentation to be confident about this claim). These DSLs are proof-of-concepts that a DSL can be created to address the need.
 
 My guess for why there is no DSL specific for this need is because the annoyance is mild enough that people take it for granted as part of the process of organizing documents. Additionally, the more people put up with this annoyance, likely it is that they become better at sorting through vast amounts of information. 
+
+COSEML info: https://user.ceng.metu.edu.tr/~coseml/coseml.pdf
 
 
 ## The Project
