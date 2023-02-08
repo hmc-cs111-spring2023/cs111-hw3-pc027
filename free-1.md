@@ -100,6 +100,10 @@ There are many text-processing DSLs. One example is generating code from other c
 
 However, I cannot find publicly available DSLs in the domain of subtitling. I believe this is because professional subtitling software has intuitive UI and features that make creating time-segmented templates easy. Additionally, the subtitling workflow is likely much more streamlined in professional scenarios. The general assumption is that there are many subtitle editors with varying capabilities, and people who do subtitling for a living have good enough tools that they wouldn’t need to learn how to script (however much a DSL would make scripting easier) to quickly create subtitles in different languages. Subtitling is also niche enough that maybe people who learn to subtitle do so because of enough vested interest.
 
+MDSL: https://microservice-api-patterns.github.io/MDSL-Specification/generators/open-api.html
+Annotations: https://docs.oracle.com/javase/tutorial/java/annotations/basics.html
+OpenAPI Generator: https://github.com/OpenAPITools/openapi-generator
+
 
 ## The Project
 
